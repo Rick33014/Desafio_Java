@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Triangulo {
 
-    // Atributos Triãngulo
+
     public double base, altura, lado2, lado3, area, perimetro;
 
     Scanner scanner = new Scanner(System.in);
@@ -72,7 +72,7 @@ public class Triangulo {
     //aqui vai verificar se é um triangulo retangulo
     // e dar return true se for retangulo
 
-    public boolean TrianguloRetangulo() {
+    public boolean Trianguloretangulo() {
         double[] lados = {base, lado2, lado3};
         Arrays.sort(lados);
         double cateto1 = lados[0], cateto2 = lados[1], hipotenusa = lados[2];
